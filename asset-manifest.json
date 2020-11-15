@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ApplicantForm/static/css/main.9d55b68f.chunk.css",
+    "main.js": "/ApplicantForm/static/js/main.944af13c.chunk.js",
+    "main.js.map": "/ApplicantForm/static/js/main.944af13c.chunk.js.map",
+    "runtime-main.js": "/ApplicantForm/static/js/runtime-main.6282bdc1.js",
+    "runtime-main.js.map": "/ApplicantForm/static/js/runtime-main.6282bdc1.js.map",
+    "static/js/2.1e2767a6.chunk.js": "/ApplicantForm/static/js/2.1e2767a6.chunk.js",
+    "static/js/2.1e2767a6.chunk.js.map": "/ApplicantForm/static/js/2.1e2767a6.chunk.js.map",
+    "index.html": "/ApplicantForm/index.html",
+    "static/css/main.9d55b68f.chunk.css.map": "/ApplicantForm/static/css/main.9d55b68f.chunk.css.map",
+    "static/js/2.1e2767a6.chunk.js.LICENSE.txt": "/ApplicantForm/static/js/2.1e2767a6.chunk.js.LICENSE.txt",
+    "static/media/ApplicantForm.module.scss": "/ApplicantForm/static/media/paperclip.af7f585d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6282bdc1.js",
+    "static/js/2.1e2767a6.chunk.js",
+    "static/css/main.9d55b68f.chunk.css",
+    "static/js/main.944af13c.chunk.js"
+  ]
+}
