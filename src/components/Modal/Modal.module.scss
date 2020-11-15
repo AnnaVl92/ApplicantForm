@@ -1,0 +1,98 @@
+@import "~bootstrap/scss/bootstrap";
+
+.modalCheckbox, .modalLink, .modalButton {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.modalCheckbox {
+    label { 
+        display: flex;
+        align-items: center;
+    }
+
+    input:invalid ~ label, input:valid ~ label {
+        color: inherit !important;
+    }
+}
+ 
+.modalLink {
+    display: inline-block;
+    padding: 0;
+    margin-left: 5px;
+    text-decoration: underline;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.modal {
+    font-size: 20px;
+    line-height: 30px;
+    max-height: 575px;
+}
+
+.modalHeader {
+    border-bottom: none;
+
+    button {
+        padding: 4px !important;
+        margin: 0 !important;
+
+        &:focus {
+            outline: none;
+        }
+
+        span {
+            color: #3a6fe5;
+        }
+    }
+}
+
+.modalTitle {
+    margin: 0 auto; 
+}
+
+.modalFooter {
+    border-top: none;
+}
+
+.modalButton {
+    padding: 8px;
+    width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+    .modal {
+        max-height: 800px;
+
+        &  > div{
+            max-width: 755px;
+        }
+    }
+
+    .modalHeader {
+        padding: 27px 0;
+        position: relative;
+
+        button {
+            position: absolute;
+            right: 38px;
+        }
+    }
+
+    .modalBody {
+        padding: 16px 41px;
+    }
+
+    .modalFooter {
+        padding: 42px 0 57px;
+    }
+
+    .modalButton {
+        width: auto;
+        min-width: 360px;
+        margin: 0 auto;
+    }
+}

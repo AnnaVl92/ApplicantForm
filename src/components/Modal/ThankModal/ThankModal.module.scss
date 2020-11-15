@@ -1,0 +1,44 @@
+@import "../Modal.module.scss";
+
+.thankModal {
+    max-height: none;
+}
+
+.thankModalHeader {
+    padding: 35px 0 10px;
+
+    button {
+        display: none;
+    }
+}
+
+.thankModalBody {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@include media-breakpoint-up(md) {
+    .thankModal {
+        &  > div{
+            max-width: 547px;
+        }
+    }
+
+    .thankModalHeader {
+        padding: 50px 0 0;
+        margin-bottom: 10px;
+
+        button {
+            display: block;
+        }
+    }
+
+    .thankModalBody {
+        margin-bottom: 0;
+    }
+
+    .thankModalFooter {
+        padding: 40px 0;
+    }
+}
